@@ -14,6 +14,7 @@
 		F4525D3F1F80BC8700CCBB31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4525D3D1F80BC8700CCBB31 /* LaunchScreen.storyboard */; };
 		F4525D4A1F80BC8800CCBB31 /* hustle_modeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4525D491F80BC8800CCBB31 /* hustle_modeTests.swift */; };
 		F4525D551F80BC8800CCBB31 /* hustle_modeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4525D541F80BC8800CCBB31 /* hustle_modeUITests.swift */; };
+		F4525D631F80C70300CCBB31 /* hustle-on.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4525D621F80BD0400CCBB31 /* hustle-on.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F4525D501F80BC8800CCBB31 /* hustle-modeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hustle-modeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4525D541F80BC8800CCBB31 /* hustle_modeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hustle_modeUITests.swift; sourceTree = "<group>"; };
 		F4525D561F80BC8800CCBB31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4525D621F80BD0400CCBB31 /* hustle-on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hustle-on.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		F4525D331F80BC8700CCBB31 /* hustle-mode */ = {
 			isa = PBXGroup;
 			children = (
+				F4525D621F80BD0400CCBB31 /* hustle-on.wav */,
 				F4525D341F80BC8700CCBB31 /* AppDelegate.swift */,
 				F4525D361F80BC8700CCBB31 /* ViewController.swift */,
 				F4525D381F80BC8700CCBB31 /* Main.storyboard */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4525D631F80C70300CCBB31 /* hustle-on.wav in Resources */,
 				F4525D3F1F80BC8700CCBB31 /* LaunchScreen.storyboard in Resources */,
 				F4525D3C1F80BC8700CCBB31 /* Assets.xcassets in Resources */,
 				F4525D3A1F80BC8700CCBB31 /* Main.storyboard in Resources */,
