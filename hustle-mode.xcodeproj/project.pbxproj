@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4525D351F80BC8700CCBB31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4525D341F80BC8700CCBB31 /* AppDelegate.swift */; };
+		F4525D371F80BC8700CCBB31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4525D361F80BC8700CCBB31 /* ViewController.swift */; };
+		F4525D3A1F80BC8700CCBB31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4525D381F80BC8700CCBB31 /* Main.storyboard */; };
+		F4525D3C1F80BC8700CCBB31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4525D3B1F80BC8700CCBB31 /* Assets.xcassets */; };
+		F4525D3F1F80BC8700CCBB31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4525D3D1F80BC8700CCBB31 /* LaunchScreen.storyboard */; };
+		F4525D4A1F80BC8800CCBB31 /* hustle_modeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4525D491F80BC8800CCBB31 /* hustle_modeTests.swift */; };
+		F4525D551F80BC8800CCBB31 /* hustle_modeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4525D541F80BC8800CCBB31 /* hustle_modeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4525D461F80BC8800CCBB31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4525D291F80BC8700CCBB31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4525D301F80BC8700CCBB31;
+			remoteInfo = "hustle-mode";
+		};
+		F4525D511F80BC8800CCBB31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4525D291F80BC8700CCBB31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4525D301F80BC8700CCBB31;
+			remoteInfo = "hustle-mode";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4525D311F80BC8700CCBB31 /* hustle-mode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hustle-mode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4525D341F80BC8700CCBB31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4525D361F80BC8700CCBB31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4525D391F80BC8700CCBB31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4525D3B1F80BC8700CCBB31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4525D3E1F80BC8700CCBB31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4525D401F80BC8700CCBB31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4525D451F80BC8800CCBB31 /* hustle-modeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hustle-modeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4525D491F80BC8800CCBB31 /* hustle_modeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hustle_modeTests.swift; sourceTree = "<group>"; };
+		F4525D4B1F80BC8800CCBB31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4525D501F80BC8800CCBB31 /* hustle-modeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hustle-modeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4525D541F80BC8800CCBB31 /* hustle_modeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hustle_modeUITests.swift; sourceTree = "<group>"; };
+		F4525D561F80BC8800CCBB31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4525D2E1F80BC8700CCBB31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4525D421F80BC8800CCBB31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4525D4D1F80BC8800CCBB31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4525D281F80BC8700CCBB31 = {
+			isa = PBXGroup;
+			children = (
+				F4525D331F80BC8700CCBB31 /* hustle-mode */,
+				F4525D481F80BC8800CCBB31 /* hustle-modeTests */,
+				F4525D531F80BC8800CCBB31 /* hustle-modeUITests */,
+				F4525D321F80BC8700CCBB31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4525D321F80BC8700CCBB31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4525D311F80BC8700CCBB31 /* hustle-mode.app */,
+				F4525D451F80BC8800CCBB31 /* hustle-modeTests.xctest */,
+				F4525D501F80BC8800CCBB31 /* hustle-modeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4525D331F80BC8700CCBB31 /* hustle-mode */ = {
+			isa = PBXGroup;
+			children = (
+				F4525D341F80BC8700CCBB31 /* AppDelegate.swift */,
+				F4525D361F80BC8700CCBB31 /* ViewController.swift */,
+				F4525D381F80BC8700CCBB31 /* Main.storyboard */,
+				F4525D3B1F80BC8700CCBB31 /* Assets.xcassets */,
+				F4525D3D1F80BC8700CCBB31 /* LaunchScreen.storyboard */,
+				F4525D401F80BC8700CCBB31 /* Info.plist */,
+			);
+			path = "hustle-mode";
+			sourceTree = "<group>";
+		};
+		F4525D481F80BC8800CCBB31 /* hustle-modeTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4525D491F80BC8800CCBB31 /* hustle_modeTests.swift */,
+				F4525D4B1F80BC8800CCBB31 /* Info.plist */,
+			);
+			path = "hustle-modeTests";
+			sourceTree = "<group>";
+		};
+		F4525D531F80BC8800CCBB31 /* hustle-modeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4525D541F80BC8800CCBB31 /* hustle_modeUITests.swift */,
+				F4525D561F80BC8800CCBB31 /* Info.plist */,
+			);
+			path = "hustle-modeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4525D301F80BC8700CCBB31 /* hustle-mode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4525D591F80BC8800CCBB31 /* Build configuration list for PBXNativeTarget "hustle-mode" */;
+			buildPhases = (
+				F4525D2D1F80BC8700CCBB31 /* Sources */,
+				F4525D2E1F80BC8700CCBB31 /* Frameworks */,
+				F4525D2F1F80BC8700CCBB31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hustle-mode";
+			productName = "hustle-mode";
+			productReference = F4525D311F80BC8700CCBB31 /* hustle-mode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4525D441F80BC8800CCBB31 /* hustle-modeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4525D5C1F80BC8800CCBB31 /* Build configuration list for PBXNativeTarget "hustle-modeTests" */;
+			buildPhases = (
+				F4525D411F80BC8800CCBB31 /* Sources */,
+				F4525D421F80BC8800CCBB31 /* Frameworks */,
+				F4525D431F80BC8800CCBB31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4525D471F80BC8800CCBB31 /* PBXTargetDependency */,
+			);
+			name = "hustle-modeTests";
+			productName = "hustle-modeTests";
+			productReference = F4525D451F80BC8800CCBB31 /* hustle-modeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4525D4F1F80BC8800CCBB31 /* hustle-modeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4525D5F1F80BC8800CCBB31 /* Build configuration list for PBXNativeTarget "hustle-modeUITests" */;
+			buildPhases = (
+				F4525D4C1F80BC8800CCBB31 /* Sources */,
+				F4525D4D1F80BC8800CCBB31 /* Frameworks */,
+				F4525D4E1F80BC8800CCBB31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4525D521F80BC8800CCBB31 /* PBXTargetDependency */,
+			);
+			name = "hustle-modeUITests";
+			productName = "hustle-modeUITests";
+			productReference = F4525D501F80BC8800CCBB31 /* hustle-modeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4525D291F80BC8700CCBB31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = bcc;
+				TargetAttributes = {
+					F4525D301F80BC8700CCBB31 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					F4525D441F80BC8800CCBB31 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F4525D301F80BC8700CCBB31;
+					};
+					F4525D4F1F80BC8800CCBB31 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F4525D301F80BC8700CCBB31;
+					};
+				};
+			};
+			buildConfigurationList = F4525D2C1F80BC8700CCBB31 /* Build configuration list for PBXProject "hustle-mode" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4525D281F80BC8700CCBB31;
+			productRefGroup = F4525D321F80BC8700CCBB31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4525D301F80BC8700CCBB31 /* hustle-mode */,
+				F4525D441F80BC8800CCBB31 /* hustle-modeTests */,
+				F4525D4F1F80BC8800CCBB31 /* hustle-modeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4525D2F1F80BC8700CCBB31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4525D3F1F80BC8700CCBB31 /* LaunchScreen.storyboard in Resources */,
+				F4525D3C1F80BC8700CCBB31 /* Assets.xcassets in Resources */,
+				F4525D3A1F80BC8700CCBB31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4525D431F80BC8800CCBB31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4525D4E1F80BC8800CCBB31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4525D2D1F80BC8700CCBB31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4525D371F80BC8700CCBB31 /* ViewController.swift in Sources */,
+				F4525D351F80BC8700CCBB31 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4525D411F80BC8800CCBB31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4525D4A1F80BC8800CCBB31 /* hustle_modeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4525D4C1F80BC8800CCBB31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4525D551F80BC8800CCBB31 /* hustle_modeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4525D471F80BC8800CCBB31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4525D301F80BC8700CCBB31 /* hustle-mode */;
+			targetProxy = F4525D461F80BC8800CCBB31 /* PBXContainerItemProxy */;
+		};
+		F4525D521F80BC8800CCBB31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4525D301F80BC8700CCBB31 /* hustle-mode */;
+			targetProxy = F4525D511F80BC8800CCBB31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4525D381F80BC8700CCBB31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4525D391F80BC8700CCBB31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4525D3D1F80BC8700CCBB31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4525D3E1F80BC8700CCBB31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4525D571F80BC8800CCBB31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4525D581F80BC8800CCBB31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4525D5A1F80BC8800CCBB31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "hustle-mode/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "id.bcc.hustle-mode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4525D5B1F80BC8800CCBB31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "hustle-mode/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "id.bcc.hustle-mode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F4525D5D1F80BC8800CCBB31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "hustle-modeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "id.bcc.hustle-modeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hustle-mode.app/hustle-mode";
+			};
+			name = Debug;
+		};
+		F4525D5E1F80BC8800CCBB31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "hustle-modeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "id.bcc.hustle-modeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hustle-mode.app/hustle-mode";
+			};
+			name = Release;
+		};
+		F4525D601F80BC8800CCBB31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "hustle-modeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "id.bcc.hustle-modeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hustle-mode";
+			};
+			name = Debug;
+		};
+		F4525D611F80BC8800CCBB31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "hustle-modeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "id.bcc.hustle-modeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hustle-mode";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4525D2C1F80BC8700CCBB31 /* Build configuration list for PBXProject "hustle-mode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4525D571F80BC8800CCBB31 /* Debug */,
+				F4525D581F80BC8800CCBB31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4525D591F80BC8800CCBB31 /* Build configuration list for PBXNativeTarget "hustle-mode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4525D5A1F80BC8800CCBB31 /* Debug */,
+				F4525D5B1F80BC8800CCBB31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4525D5C1F80BC8800CCBB31 /* Build configuration list for PBXNativeTarget "hustle-modeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4525D5D1F80BC8800CCBB31 /* Debug */,
+				F4525D5E1F80BC8800CCBB31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4525D5F1F80BC8800CCBB31 /* Build configuration list for PBXNativeTarget "hustle-modeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4525D601F80BC8800CCBB31 /* Debug */,
+				F4525D611F80BC8800CCBB31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4525D291F80BC8700CCBB31 /* Project object */;
+}
